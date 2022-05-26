@@ -19,3 +19,5 @@ for i in range(1,250):
     dict_[i]={name:[ad, j, tn]}
     with open ("DS.txt",'w',encoding='utf-8') as f:
         json.dump(dict_, f, indent = 4, ensure_ascii = False)
+
+#121
